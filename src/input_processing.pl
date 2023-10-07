@@ -174,7 +174,7 @@ validacion_entrada_aux(Input):-
     es_oracion(Input).
 
 error_entrada:-
-    writeln('\n- WazeLog: Lo siento, no entendi').
+    writeln('\n WazeLog: Lo siento, no entendi').
 
 
 %%%% Yes or No Validation %%%%
@@ -193,7 +193,7 @@ validacion_si_o_no_aux(Input):-
     ( es_afirmativo(Input); es_negativo(Input) ).
 
 error_si_o_no:-
-    writeln('\n- WazeLog: Si o no?').
+    writeln('\n WazeLog: Si o no?').
 
 %%%% validate input location %%%%
 

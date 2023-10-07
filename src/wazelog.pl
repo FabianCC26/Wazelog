@@ -13,7 +13,7 @@ start():-
     writeln('\nWazeLog: Muy bien, ¿Cual es su destino?'),
     ubicacion(Destino),
 
-    writeln('\nWazeLog: Exelente, ¿Tiene algun destino intermedio? (si / no)'),
+    writeln('\nWazeLog: Excelente, ¿Tiene algun destino intermedio? (si / no)'),
     intermedio([], List),
 
     nl,
