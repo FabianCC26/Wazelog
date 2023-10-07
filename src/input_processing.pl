@@ -174,7 +174,7 @@ validacion_entrada_aux(Input):-
     es_oracion(Input).
 
 error_entrada:-
-    writeln('\n WazeLog: Lo siento, no entendi').
+    writeln('\nWazeLog: Lo siento, no entendi').
 
 
 %%%% Yes or No Validation %%%%
@@ -193,7 +193,7 @@ validacion_si_o_no_aux(Input):-
     ( es_afirmativo(Input); es_negativo(Input) ).
 
 error_si_o_no:-
-    writeln('\n WazeLog: Si o no?').
+    writeln('\nWazeLog: Si o no?').
 
 %%%% validate input location %%%%
 
@@ -210,7 +210,7 @@ validacion_lugar_aux(Lugar):-
 	search_lugar(Ans,Lugar).
 
 error_lugar:-
-    writeln('\n WazeLog: Ese lugar no lo conozco. \nIngrese otro, por favor.').
+    writeln('\nWazeLog: Ese lugar no lo conozco. \nIngrese otro, por favor.').
 
 
 %%%% Validate input city %%%%
@@ -228,7 +228,7 @@ validacion_ciudad_aux(Ciudad):-
 	search_ciudad(Ans,Ciudad).
 
 error_ciudad:-
-    writeln('\n WazeLog: Esa ciudad no la conozco.\nIngrese otra, por favor.').
+    writeln('\nWazeLog: Esa ciudad no la conozco.\nIngrese otra, por favor.').
 
 
 
@@ -248,7 +248,7 @@ validacion_local_aux(Local):-
 	search_local(Ans,Local).
 
 error_local:-
-    writeln('\n WazeLog: Disculpe, aun no conozco ese local.\n¡Por favor ingrese uno valido!').
+    writeln('\nWazeLog: Disculpe, aun no conozco ese local.\n¡Por favor ingrese uno valido!').
 
 
 
